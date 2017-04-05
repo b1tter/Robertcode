@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Habane Comedy</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+
+  <video class="intro-video" controls autoplay loop>
+    <source src="video/intro.mp4" type="video/mp4">
+    <source src="video/intro/ogv" type="video/ogg">
+    </i>
+  </a>
+  </video>
+
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Navigate</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home/Video</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Gallery</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+          <script type="text/javascript">window.setTimeout("document.getElementById('something').style.display='none';", 9200); </script>
+<img id="something" src="img/logo1.png" width="200" height="100" border="0" alt="" />
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <img src="img/head.gif" width="180px">
+                    <h2>The story of one of the best stand up comedians in Denmark!</h2>
+                    <p class="lead">His name is Mahamad Habane but his stage name is Habane. He is 26 years old and lives in Aarhus.
+                      After high school he wanted to study medicine, but instead he opened his eyes for Stand-up. Habane spent a long time writing jokes,
+                       with the intension that later on it would end up being for stand-up shows. He has spent a long time practicing in front of the mirror and then test material on friends and acquaintances to see if the material he had could be put together for a show.
+                        After long time of practicing he had to also find the courage to appear in public forum before an audience he had never seen before.
+                       He has spent much of his time to strengthen himself and his appearance on the V58, which is a place in Aarhus, where you can go and test your jokes in front of an unknown audience for free.
+                      When he eventually got better, he started to make comedy as a “full-time” hobby beside his actual work. He booked himself into shows, which was free of charge both for him but also for his audience. Over time he began to do volunteer stand-up and still do as an exercise.
+                      Habane says that there is very few that can live on doing stand-up, but if he got the opportunity later in life he would with no doubt do it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Gallery</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+<!-- Gallery -->
+                    <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="img/portfolio-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/portfolio-2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/portfolio-3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="img/portfolio-4.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img src="img/portfolio-1.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img src="img/portfolio-2.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img src="img/portfolio-3.jpg" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img src="img/portfolio-2.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+                    <a href="http://www.nyv58.dk" target="_blank" class="btn btn-dark">View More Photos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End of gallery -->
+
+    <!-- Call to Action -->
+    <section id="contact">
+    <aside class="call-to-action">
+      <form name="contactForm" id="contactForm" method="post" action=""  >
+      <fieldset>
+
+            <div>
+         <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minLength="2" required />
+            </div>
+            <div>
+           <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required />
+           </div>
+            <div>
+           <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />
+           </div>
+            <div>
+              <textarea name="contactMessage"  id="contactMessage" placeholder="message" rows="10" cols="50" required ></textarea>
+           </div>
+            <div>
+               <button class="submitform">Submit</button>
+              <div class="s-loader">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+          </div>
+        </div>
+            </div>
+
+    </aside>
+</section>
+
+      </div> <!-- end row -->
+
+   </section>  <!-- end contact -->
+
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.3000730177837!2d10.19740715649584!3d56.15811278429467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f94a43c11c9%3A0xba0991b4d34ddf0e!2sNy+V58!5e0!3m2!1sen!2sdk!4v1476105415817"></iframe>
+        <br />
+        </iframe>
+    </section>
+
+    <!-- Gallery JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Business Academy Aarhus</strong>
+                    </h4>
+                    <p>Denmark-8260 Viby J
+                        <br>Sønderhøj 30</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i>+45 7228 6000</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">info@baaa.dk</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/habane.main" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <img src="img/logo1.png" width="70px">
+                    <p class="text-muted">Copyright &copy; Project 2.1 2016</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+</body>
+
+</html>

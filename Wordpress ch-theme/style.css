@@ -1,0 +1,315 @@
+/*
+Theme Name: cr-child
+Description: The custom theme cr-child using the parent theme Catch Responsive.
+Author: Andrei, Anja, Catalin, Robert
+Author URI: www.baaa-news.anjasimonsen.com
+Template: catch-responsive
+Version: 1
+*/
+
+body {
+    background-color: rgba(74, 180, 202, 0.1);
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+/* Start of Navigation menu */
+
+.nav-primary, .nav-footer {
+    background-color: #183940;
+    z-index: 198;
+}
+#menu-item-98 {
+    font-weight:bold;
+}
+
+#menu-item-240 {
+    font-weight:bold;
+}
+
+#menu-item-304 {
+    font-weight:bold;
+}
+
+#menu-item-303 {
+    font-weight:bold;
+}
+
+
+
+
+/* End of Navigation styling */
+
+
+
+/* Start logo section */
+
+div#site-branding.logo-left {
+    width:100%;
+    height:100% !important;
+    display: table;
+}
+div#site-branding.logo-left h1 {
+    display: table-cell;
+    vertical-align:middle;
+}
+.custom-logo {
+    max-width: 10vw;
+    max-height: 19vw;
+}
+@media (max-width: 767px) {
+  .custom-logo {
+    max-width: 25vw;
+    max-height: 48vw;
+  }
+}
+
+.site-title {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.site-title a:hover {
+    color: black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.site-description {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-style: italic;
+}
+
+
+/* End logo section */
+
+
+
+/* Start Social Media Icons */    
+
+.icon-2x {
+    font-size: 1.3em !important; 
+}
+
+#masthead {
+    padding: 10px 0;
+}
+
+.sidebar-header-right {
+    display:none;
+}
+
+#search-toggle {
+    display: none !important;
+}
+
+#menu-item-97 {
+    float: right;
+}
+ #menu-item-96 {
+     float: right;
+ }
+ #menu-item-95 {
+     float: right;
+ }
+ #menu-item-157 {
+     float: right;
+ }
+     
+ .nav-primary.search-enabled .menu {
+     float: none !important;
+ }
+ /* End Social Media Icons */
+ 
+ 
+ 
+ /* Start of the video section */
+ 
+.no-sidebar.content-width #main {
+    display: block;
+    margin: auto;
+    width: auto !important;
+}
+@media (max-width: 768px) { 
+    div.fl-module.fl-module-video.fl-node-58c9c171b5e74{
+    padding-right: 20px;
+    }
+}
+/* End of the video section */
+
+
+
+/* Start of Article Layout Style */
+
+.team {
+    padding:30px;
+    background-color: rgba(74, 180, 202, 0.1);
+}
+
+article {
+    padding:0px !important;
+}
+
+.article-title1 {
+    float:right;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.article-title2 {
+    float:left;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.author {
+    font-style: italic;
+    font-size: 12px;
+    padding-top:10px;
+}
+
+p.author {
+    margin-bottom: 0px !important;
+}
+
+.intro-article {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.article-text {
+    text-align:justify;
+}
+
+.article-img1 {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    margin-top: 28px;
+}
+
+.article-img2 {
+    float: right;
+    margin-left: 12px;
+    margin-bottom: 0px;
+    margin-top: 28px;
+}
+
+.readbutton {
+    background-color: #4ab4ca;
+    font-size: 16px;
+    font-weight:600;
+    min-width:90px;
+    min-height:30px;
+}
+
+p.entry-meta {
+    display:none;
+}
+
+div#comments.comments-area {
+    display:none;
+}
+
+
+/* End of Article Layout Style */
+
+
+/* Start of Borders */
+
+div.border-line {
+    border-bottom: 3px solid #183940 !important;
+    padding:20px;
+}
+
+div.fl-row.fl-row-fixed-width.fl-row-bg-none.fl-node-58c7bf1355ee5 {
+    border-bottom: 3px solid #183940 !important;
+    margin-top: 4px;
+}
+
+.sidebar.sidebar-primary.widget-area {
+    border-left: 3px solid rgba(74, 180, 202, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+div.fl-module.fl-module-html.fl-node-58c7e126e4ed6 {
+    border-left: 3px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+
+.separator {
+    border-bottom: 3px solid #183940 !important;
+}
+
+div#supplementary.one {
+    border-bottom: 1px solid #183940 ;
+    border-top: 3px solid #183940 ;
+}
+/* End of Borders */
+
+/* Start of Contact*/
+
+section#text-5.widget.widget_text {
+   padding: 0px;
+}
+
+/* End of Contact */
+/* Start of others */
+
+a.post-edit-link {
+    display:none;
+}
+
+.intro-title {
+    text-align: center;
+}
+
+div.fl-photo.fl-photo-crop-landscape.fl-photo-align-center {
+    margin-top: 5px !important;
+margin-bottom: 2px !important;
+}
+.fl-photo-content img {
+    max-width: 87% !important;
+}
+
+.entry-header {
+    padding-bottom:0px !important;
+}
+
+article#post-138.post-138.page.type-page.status-publish.hentry {
+    padding:0px !important;
+}
+
+aside.sidebar.sidebar-primary.widget-area { 
+    padding-right: 0px !important; 
+}
+
+div.wrapper {
+    padding:0px !important;
+}
+
+div.fl-module.fl-module-photo.fl-node-58c7e15e9e6ca{
+    margin:0px !important;
+    max-width:60% !important;
+}
+
+div.fl-col-group.fl-node-58c6b3c2141c9.fl-col-group-equal-height.fl-col-group-align-top {
+    background-color: #183940;
+}
+
+.entry-title {
+    display:none;
+}
+
+div.fl-row-content-wrap {
+    padding: 0px;
+}
+
+div.fl-builder-content.fl-builder-content-138.fl-builder-content-primary {
+    background-color:rgba(74, 180, 202, 0.1);
+}
+
+.navigation.post-navigation {
+    display:none;
+}
+
+/*End of others */

@@ -1,0 +1,446 @@
+body {
+  margin: 0;
+  padding:0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Conduit ITC W01 Bold";
+text-transform: uppercase;
+}
+
+#logo {
+  top: 0.6%;
+	left: 3%;
+  position: fixed;
+  height: 64px;
+  width: 64px;
+  z-index: 40;
+  transition: height 250ms;
+}
+
+@media (max-width: 767px){
+#logo {
+  height: 60px;
+  width: 60px
+}
+}
+.container {
+  font-family: "Conduit ITC W01 Light";
+  font-size: 1.3em;
+}
+
+p {
+  font-family: "Conduit ITC W01 Light"!important;
+  font-size: 1.3em;
+}
+
+
+#teamsection, #gallerysection, #bookingsection, #pricelistsection, #contactsection {
+  height: auto;
+  width: auto;
+  min-height: 100vh;
+  max-width: 100vw;
+  padding-top: 70px;
+}
+
+#aboutsection {
+color: #fbf5f3;
+margin-top: -15px;
+background-image: url(../images/background.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 70vh!important;
+padding-bottom:55px; /* +15px which you took away in margin-top*/
+padding-top: 70px; /*considering the height(70px) of navbar*/
+}
+#aboutsection hr {
+  width: 40%;
+}
+
+#aboutsection, #gallerysection, #teamsection > h1 {
+color:white;
+}
+
+
+#teamsection {
+  background-color: white;#fbf5f3;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10vw;
+}
+
+#teamsection img {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+#gallerysection{
+  min-height: auto!important;
+}
+
+#sneakpeakicons a {
+color: white!important;
+padding: 10px;
+}
+#sneakpeakicons a:hover {
+  color: #870006!important;
+}
+
+#pricelistsection {
+  padding-bottom: 5vw;
+  color:white;
+}
+
+#pricelistsection{
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pricelistsection hr {
+  width:50%;
+}
+
+@media screen and (max-width: 600px) {
+#pricelist {
+  width: 100%;
+  margin-left:0;
+}}
+
+
+/* ========== Contact ========== */
+#contactsection {
+  padding-bottom: 10vw;
+}
+
+table{
+  width: 50%;
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 330px){
+#openinghours {
+  width: 70%;
+  margin-left: 20%;
+}}
+
+#contactsection hr {
+  border-top: 1px solid #870006;
+}
+/* ===================================== */
+
+#mobileintrojpg {
+height:auto;
+width:100%;
+}
+
+
+/* ========== gallerysection ========== */
+#gallerysection {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 5vw;
+}
+
+#gallerysection  img { transition: all .2s ease-in-out;}
+#gallerysection  img:hover {transform: scale(1.1);}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+    border-color: transparent!important;
+}
+
+/* ========== gallerysection ========== */
+
+
+/* ========== NAVBAR ========== */
+.nav {
+  font-family: "Conduit ITC W01 Bold";
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px!important;
+  color: white;
+}
+.navbar-default {
+  border-color: transparent!important;
+}
+/*collapsed menu*/
+/*hamburger menu hover when open */
+.navbar-default .navbar-toggle {
+  background-color: #870006;
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #870006;
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border-color: transparent!important;
+}
+.navbar-default .navbar-toggle.collapsed {
+  border-color: white; #A4ABB0;/*grey*/
+  background-color: black;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: white;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #870006!important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: transparent;
+    border-bottom: 3px solid #870006!important;
+}
+
+/*makes dropdown -collapsed menu white text*/
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+}}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: rgba(0, 0, 0, 0.4);white; rgba(135, 0, 6, 0.7)!important; /*red*/
+    text-align: center;
+    color: white;
+}
+
+.dropdown-menu > li > a{
+  color:white;
+}
+
+.dropdown-menu > li > a:hover{
+  background-color: #870006!important;
+  color:white;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+  }
+
+.btn-default {
+    color: white;
+    background-color: #870006;
+    border-color: transparent;
+    font-family: "Conduit ITC W01 Bold";
+    transition: all .15s ease-in-out;
+    margin-top: 10px;
+}
+
+.btn-default:hover {
+  color: white;
+  background-color: #870006;
+  border-color: transparent;
+  transform: scale(1.17);
+  }
+
+
+@media (max-width: 767px){
+  .dropdown-menu {
+    color:white;
+    background-color: #870006!important;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color: black!important;
+  }
+}
+/* ================================= */
+
+/* ========== VIDEO START ========== */
+.video-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+video {min-width: 100%;
+       min-height: 100%;
+       z-index: -1;}
+
+.video-overlay {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+#overlay2 {
+  margin-top: 18%;
+}
+
+/* ================================= */
+/* footer styles
+-------------------------------------------------- */
+.footer-distributed{
+	background-color: #101010;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 45px 50px;
+	margin-top: 2px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #3c3c3c;
+	margin: 0;
+  font-family: "Conduit ITC W01 Bold";
+  font-size: 24px;
+}
+
+/* Footer links */
+.footer-distributed p.footer-motto{
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-motto a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+  font-family:"Conduit ITC W01 Bold";
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 12px;
+	max-width: 130px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #3c3c3c;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+@media (max-width: 600px) {
+.footer-distributed .footer-right {
+float: none!important;
+margin: 0 auto!important;
+}
+}
+
+.footer-right i:hover {
+  color: #870006;
+}
+/* To be responsive */
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+.footer-left p {
+  text-align: center;
+}
+}
+
+/*bookingsection*/
+#supersaas {
+  width: 600px;
+  height: 510px;
+}
+
+/*bookingsection on phone */
+@media (max-width: 680px){
+  #supersaas {
+    width: 300px;
+    height: 510px;
+  }
+}
+
+/* GOOGLE MAPS */
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+@font-face {font-family: "Conduit ITC W01 Bold";
+      src: url("..//fonts/conduit_bold/589dc5dbe01f7ed323ccab2fd9ec9fe0.eot"); /* IE9*/
+      src: url("..//fonts/conduit_bold/589dc5dbe01f7ed323ccab2fd9ec9fe0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("..//fonts/conduit_bold/589dc5dbe01f7ed323ccab2fd9ec9fe0.woff2") format("woff2"), /* chrome、firefox */
+      url("..//fonts/conduit_bold/589dc5dbe01f7ed323ccab2fd9ec9fe0.woff") format("woff"), /* chrome、firefox */
+      url("..//fonts/conduit_bold/589dc5dbe01f7ed323ccab2fd9ec9fe0.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("..//fonts/conduit_bold/589dc5dbe01f7ed323ccab2fd9ec9fe0.svg#Conduit ITC W01 Bold") format("svg"); /* iOS 4.1- */
+    }
+
+@font-face {font-family: "Conduit ITC W01 Light";
+      src: url("..//fonts/conduit_light/4867c7e6715e2f43f19fd7c774b3301a.eot"); /* IE9*/
+      src: url("..//fonts/conduit_light/4867c7e6715e2f43f19fd7c774b3301a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("..//fonts/conduit_light/4867c7e6715e2f43f19fd7c774b3301a.woff2") format("woff2"), /* chrome、firefox */
+      url("..//fonts/conduit_light/4867c7e6715e2f43f19fd7c774b3301a.woff") format("woff"), /* chrome、firefox */
+      url("..//fonts/conduit_light/4867c7e6715e2f43f19fd7c774b3301a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("..//fonts/conduit_light/4867c7e6715e2f43f19fd7c774b3301a.svg#Conduit ITC W01 Light") format("svg"); /* iOS 4.1- */
+    }	
